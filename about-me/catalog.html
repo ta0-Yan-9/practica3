@@ -23,6 +23,7 @@
           <li><a href="flex-lab.html">Лаба</a></li>
           <li><a href="grid-lab.html">ЛАба Grid</a></li>
           <li><a href="catalog.html">Каталог</a></li>
+          <li><a href="positiob-lab.html">позицианирование</a></li>
         </ul>
       </nav>
       <link rel="stylesheet" href="style.css">
@@ -30,7 +31,7 @@
 
 
     <main>
-        <h1>Каталог ученых направлений</h1>
+        <h1 id="top">Каталог ученых направлений</h1>
 
         <P class="catalog-grid">
             выберете направление
@@ -38,6 +39,7 @@
         </P>
 
         <div class="catalog-grid">
+            <span class="card-badge">новинка</span>
             <article class="product-card">
                 <img src="photo/html.PNG" alt="HTML-когд на экрае редактора">
                 <h2>HTML</h2>
@@ -57,6 +59,7 @@
             </article>
 
             <article class="product-card">
+                <span class="card-badge">новинка</span>
                 <img src="photo/css.PNG" alt="пимер CSS">
 
                 <h2>CSS</h2>
@@ -91,6 +94,12 @@
             </article>
 
         </div>
+
+        <p class="back-to-top"> 
+            <a href="#top">Наверх</a> 
+          </p> 
+
+        
     </main>
   </body>   
 </html>
