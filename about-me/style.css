@@ -301,9 +301,13 @@ width: auto;
     border: 1px solid #9fb3c8;
 }
 
-.grid-iten {
+.grid-item {
     padding: 1rem;
     border: 1px solid #6f8498;
+}
+
+.grid-item-total {
+    grid-column: span 3;
 }
 
 .area-demo{
